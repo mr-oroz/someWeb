@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 2098px;
+}
+.header,
+.attachment,
+.question,
+.project,
+.download
+{
+    background-color: #fff;
+;
+}
+.header,
+.attachment
+{
+    padding: 88px 0
+}
+.header__top,
+.header__menu ul,
+.header__bottom
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__top h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    color: #0088A2;
+}
+.header__menu {
+    background: #808080;
+}
+
+.header__menu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 70px;
+}
+.header__menu ul li .home {
+    background: #0088A2;
+}
+.header__bottom-items,
+.attachment__play
+{
+    position: relative;
+}
+.header__bottom-items{
+    margin: 83px 0;
+
+}
+.header__bottom-items p,
+.attachment__play-icon
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.header__bottom-items p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*.attachment,*/
+/*.project,*/
+/*.download*/
+/*{*/
+/*    margin-top: -69px;*/
+/*}*/
+.attachment__play {
+    display: flex;
+    justify-content: center;
+}
+.attachment h1,
+.project h1,
+.download h1
+{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    color: #0088A2;
+}
+.attachment__play-icon {
+    cursor: pointer;
+}
+.question {
+    height: 918px;
+}
+.question-items {
+    margin-top: 60px;
+    position: relative;
+}
+.question-item1,
+.question-item2,
+.question-item3,
+.question-item4,
+.question-item5
+{
+    position: absolute;
+}
+.question-item1 {
+    left: 260px;
+    top: 102px;
+}
+.question-item2 {
+    left: 398px;
+    top: 156px;
+}
+.question-item3 {
+    left: 706px;
+    top: 102px;
+}
+.question-item4 {
+    left: 987px;
+    top: 156px;
+}
+.question-item5 {
+    left: 1308px;
+    top: 102px;
+}
+.project,
+.download
+{
+    padding: 83px 0;
+}
+.project {
+    position: relative;
+}
+.project p,
+.download p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #707070;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.project p{
+    width: 1391px;
+}
+.download p {
+    width: 1639px;
+}
+
+.download__img {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background: #0088A2;
+    padding: 75px 0;
+}
+footer h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin: 0 50px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+.contact, .adress, .help  {
+    display: flex;
+    flex-direction: column;
+}
+.adress p {
+    width: 503px;
+}
+.contact h2, .adress h2, .help h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+    color: #FDFDFD;
+}
+.contact a, .adress p, .help a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
