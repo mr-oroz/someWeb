@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
 
 ul li {
@@ -15,194 +15,222 @@ ul li {
 a {
     text-decoration: none;
 }
+
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 2098px;
+    max-width: 1190px;
 }
-.header,
-.attachment,
-.question,
-.project,
-.download
-{
-    background-color: #fff;
-;
+.header__inner {
+    background: #f2f2f2;
+    padding-top: 88px;
 }
-.header,
-.attachment
-{
-    padding: 88px 0
+.header {
+    padding-top: 88px;
 }
-.header__top,
-.header__menu ul,
-.header__bottom
-{
+.header__top {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-
+.header__top img {
+    width: 120px;
+    height: 120px;
+}
 .header__top h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
-    line-height: 72px;
-    color: #0088A2;
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #0088a2;
 }
+
 .header__menu {
+    display: flex;
+    margin-top: 60px;
     background: #808080;
 }
 
-.header__menu ul li a {
-    font-family: 'Open Sans', sans-serif;
+.header__menu a {
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 42px;
-    line-height: 57px;
+    font-size: 18px;
+    line-height: 27px;
     display: flex;
     align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+.header__menu-home {
+    background: #0088a2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 70px;
 }
-.header__menu ul li .home {
-    background: #0088A2;
+.header__menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
 }
-.header__bottom-items,
-.attachment__play
-{
+.work__inner {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background: #ffffff;
+}
+.work__inner img {
+    width: 234px;
+    height: 146px;
+}
+.work__inner-items {
     position: relative;
 }
-.header__bottom-items{
-    margin: 83px 0;
-
-}
-.header__bottom-items p,
-.attachment__play-icon
-{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
-.header__bottom-items p {
+.work__inner-items p {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
-    color: #FFFFFF;
-    text-align: center;
-}
-/*.attachment,*/
-/*.project,*/
-/*.download*/
-/*{*/
-/*    margin-top: -69px;*/
-/*}*/
-.attachment__play {
+    font-size: 14px;
+    line-height: 18px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
 }
-.attachment h1,
-.project h1,
-.download h1
-{
-    font-family: "Open Sans", sans-serif;
+.atachment__inner,
+.question__inner,
+.project__inner,
+.download__inner {
+    background: #ffffff;
+    padding: 60px 0;
+}
+.atachment__inner h1,
+.project__inner h1,
+.download__inner h1 {
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 46px;
     line-height: 131px;
     text-align: center;
-    color: #0088A2;
+    color: #0088a2;
 }
-.attachment__play-icon {
-    cursor: pointer;
-}
-.question {
-    height: 918px;
-}
-.question-items {
-    margin-top: 60px;
+.atachment__play {
+    display: flex;
+    justify-content: center;
     position: relative;
 }
-.question-item1,
-.question-item2,
-.question-item3,
-.question-item4,
-.question-item5
-{
+.atachment__images {
+    width: 981px;
+    height: 416px;
+}
+.atachment__play-icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.question__items img {
+    width: 275px;
+    height: 434px;
+}
+.question__inner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 640px;
+}
+/* .question__items {
+    position: relative;
+} */
+.question__item1,
+.question__item2,
+.question__item3,
+.question__item4,
+.question__item5 {
     position: absolute;
 }
-.question-item1 {
-    left: 260px;
+.question__item1 {
+    left: 100px;
     top: 102px;
 }
-.question-item2 {
-    left: 398px;
-    top: 156px;
+.question__item2 {
+    left: 267px;
+    top: 154px;
 }
-.question-item3 {
-    left: 706px;
+.question__item3 {
+    left: 434px;
     top: 102px;
 }
-.question-item4 {
-    left: 987px;
-    top: 156px;
+.question__item4 {
+    left: 598px;
+    top: 154px;
 }
-.question-item5 {
-    left: 1308px;
+.question__item5 {
+    left: 768px;
     top: 102px;
 }
 .project,
 .download
 {
-    padding: 83px 0;
+    margin-top: 2px;
 }
-.project {
-    position: relative;
+.project__inner,
+.download__inner {
+    display: flex;
+    flex-direction: column;
 }
-.project p,
-.download p
-{
-    font-family: 'Roboto', sans-serif;
+.project__inner p {
+    width: 900px;
+}
+.download__inner p {
+    width: 1000px;
+}
+.project__inner p,
+.download__inner p {
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 28px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    align-self: center;
 }
-.project p{
-    width: 1391px;
-}
-.download p {
-    width: 1639px;
-}
-
-.download__img {
+.dowload__inner-items {
     display: flex;
     justify-content: space-around;
 }
-footer {
-    background: #0088A2;
-    padding: 75px 0;
+.dowload__inner-items img {
+    width: 250px;
+    height: 210px;
 }
-footer h1 {
+.download__inner p {
+    align-self: center;
+}
+.footer__inner {
+    background: #0088a2;
+    padding: 88px 0;
+}
+.footer__inner h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 46px;
+    line-height: 56px;
     text-align: center;
-    color: #FFFFFF;
+    color: #fff;
 }
 .social {
     display: flex;
@@ -210,33 +238,36 @@ footer h1 {
 }
 .social img{
     margin: 0 50px;
+    width: 50px;
 }
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .contact, .adress, .help  {
     display: flex;
     flex-direction: column;
+    width: 191px;
 }
 .adress p {
-    width: 503px;
+    width: 300px;
 }
 .contact h2, .adress h2, .help h2 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 20px;
     color: #FDFDFD;
+    line-height: 18px;
 }
 .contact a, .adress p, .help a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+    align-self: center;
 }
